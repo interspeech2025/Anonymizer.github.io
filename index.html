@@ -1,0 +1,264 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Investigation into voice protection preserving human perception by speech generation</title>
+    <link rel="shortcut icon" href="https://vancycici.github.io/fbdecode/img/ms.jpg">
+    <link rel="icon" href="https://vancycici.github.io/fbdecode/img/ms.jpg">
+    <link rel="apple-touch-icon" href="https://vancycici.github.io/fbdecode/img/ms.jpg">
+</head>
+<body>
+
+<article>
+    <header>
+        <h1>An Anonymizer of High Uniqueness and Efficiency in Voice Anonymization</h1>
+    </header>
+</article>
+
+
+<div>
+    <b>Abstract:</b>  Pseudo-speaker construction presents a fundamental challenge in the state-of-the-art voice anonymization technique, which is based on substituting original speaker attributes with those of a pseudo-speaker. However, current pseudo-speaker construction methods are limited in the uniqueness of pseudo-speakers and computational efficiency. To this end, this paper proposes a feedforward network that maps speaker identities to speaker vectors, achieving pseudo-speaker uniqueness by assigning a distinct identity to each pseudo-speaker. Experimental results obtained from the LibriSpeech dataset demonstrated the effectiveness of the proposed method in enhancing the uniqueness of pseudo-speakers, thereby improving the voice privacy protection capability. Furthermore, the feedforward architecture significantly enhances computational efficiency compared to existing model-based pseudo-speaker generation methods.
+</div>
+
+<br/>
+<br/>
+<br/>
+
+Here, we showcase five kinds of anonymized speech:
+(1)RS
+(2)Average;
+(3)PSD;
+(4)GAN;
+(5)Proposed;
+
+<h2>Libri-Dev Male</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Audio Name</th>
+            <th>USPAnon</th>
+            <th>PSD</th>
+            <th>RS</th>
+            <th>Farthest</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 第一行 -->
+        <tr>
+            <td>174-50561-0000</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/male/174-50561-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/male/174-50561-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/male/174-50561-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/male/174-50561-0000.wav">
+                </audio>
+            </td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td>251-136532-0000</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/male/251-136532-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/male/251-136532-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/male/251-136532-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/male/251-136532-0000.wav">
+                </audio>
+            </td>
+        </tr>
+        <!-- 第三行 -->
+        <tr>
+            <td>174-50561-0001</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/male/174-50561-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/male/174-50561-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/male/174-50561-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/male/174-50561-0001.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <!-- 第四行 -->
+        <tr>
+            <td>251-136532-0001</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/male/251-136532-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/male/251-136532-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/male/251-136532-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/male/251-136532-0001.wav">
+                </audio>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Libri-Dev Female</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Audio Name</th>
+            <th>USPAnon</th>
+            <th>PSD</th>
+            <th>RS</th>
+            <th>Farthest</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 第一行 -->
+        <tr>
+            <td>1462-170142-0000</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/female/1462-170142-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/female/1462-170142-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/female/1462-170142-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/female/1462-170142-0000.wav">
+                </audio>
+            </td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td>84-121550-0000</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/female/84-121550-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/female/84-121550-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/male/84-121550-0000.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/female/84-121550-0000.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <!-- 第三行 -->
+        <tr>
+            <td>1462-170142-0001</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/female/1462-170142-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/female/1462-170142-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/female/1462-170142-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/female/1462-170142-0001.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <!-- 第四行 -->
+        <tr>
+            <td>84-121550-0001</td> <!-- 音频名称 -->
+            <td>
+                <audio controls="">
+                    <source src="U2SAnon/libri-dev/female/84-121550-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="psd/libri-dev/female/84-121550-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="RS/libri-dev/female/84-121550-0001.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls="">
+                    <source src="Farthest/libri-dev/female/84-121550-0001.wav">
+                </audio>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+<!-- Repeat the same structure for other sections (Libri-Dev Female, Libri-Test Male, and Libri-Test Female) -->
+<!-- Make sure to add the 'Farthest' column and the corresponding audio sources in each section. -->
+
+</body>
+</html>
